@@ -15,7 +15,7 @@ spec:
         backend: 1
       metric:
         prometheus:
-          address: #http://prometheus_address
+          address: http://prometheus.istio-system:9090
           handlers:
             cpu.sum:
               query: |
