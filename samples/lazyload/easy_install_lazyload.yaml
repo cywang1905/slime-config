@@ -48,11 +48,3 @@ spec:
       image:
         repository: docker.io/bcxq/pilot
         tag: preview-1.3.7-v0.0.1
----
-apiVersion: microservice.slime.io/v1alpha1
-kind: ServiceFence
-metadata:
-  name: productpage
-  namespace: default
-spec:
-  enable: true
